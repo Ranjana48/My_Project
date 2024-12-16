@@ -1,0 +1,14 @@
+.container{
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+}
+.box{
+    border: 1px solid brown;
+    background-color: bisque;
+    width: 40px;
+
+}

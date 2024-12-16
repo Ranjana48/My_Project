@@ -1,0 +1,20 @@
+.Class{
+  color: red;
+}
+#Id{
+  color: green;
+  
+}
+
+.Bag{
+  padding: 5px 10px;
+ background-color: lightgreen;
+ border: none;
+ border-radius: 5px;
+}
+.Wishlist{
+  border: 2px solid black;
+  padding: 5px 20px;
+  border-radius: 10px;
+  
+}

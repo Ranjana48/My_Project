@@ -1,0 +1,13 @@
+.Bag{
+  padding: 10px 20px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#Wishlist{
+  padding: 10px 55px;
+  border: 2px solid black;
+  border-radius: 15px;
+}

@@ -1,0 +1,12 @@
+.select {
+  width: 150%;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  top: 130%;
+  left: -15px;
+  z-index: 100;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 10%);
+  padding-left: 20px;
+  padding-top: 10px;
+}
