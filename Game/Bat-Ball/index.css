@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container_div {
+  background-color: rgb(248, 228, 209);
+  height: 150px;
+  width: 100%;
+  /* margin: 10px 0px 0px 10px; */
+  padding-top: 20px;
+  padding-left: 30px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: rgb(83, 156, 239);
+  border: 1px solid rgb(125, 121, 121);
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(144, 57, 57);
+  color: aliceblue;
+}

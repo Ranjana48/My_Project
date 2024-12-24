@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>Bat-Ball</title>
+  </head>
+  <body>
+    <div class="container_div">
+      <h1>Bat Ball Stump Game</h1>
+      <button
+        onclick="
+      let computerChoice = generateComputerChoice();
+      let resultMsg = getResult('Bat', computerChoice);
+      showResult('Bat', computerChoice, resultMsg);
+       "
+        type="button"
+      >
+        Bat
+      </button>
+
+      <button
+        onclick="
+       computerChoice = generateComputerChoice();
+       resultMsg = getResult('Ball', computerChoice);
+      showResult('Ball', computerChoice, resultMsg);
+       "
+        type="button"
+      >
+        Ball
+      </button>
+
+      <button
+        onclick="
+       computerChoice = generateComputerChoice();
+       resultMsg = getResult('Stump', computerChoice);
+      showResult('Stump', computerChoice, resultMsg);
+      "
+        type="button"
+      >
+        Stump
+      </button>
+    </div>
+  </body>
+</html>
